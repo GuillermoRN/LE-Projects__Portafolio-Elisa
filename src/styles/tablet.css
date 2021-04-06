@@ -24,9 +24,11 @@ header nav a {
 }
 .gridMedia__photo-right--content {
     grid-area: content;
+    max-width: 550px;
 }
 .gridMedia__photo-right--photo {
     grid-area: photo;
+    margin: auto;
 }
 
 .gridMedia__photo-left {
@@ -37,7 +39,20 @@ header nav a {
 }
 .gridMedia__photo-left--content {
     grid-area: content;
+    max-width: 550px;
 }
 .gridMedia__photo-left--photo {
     grid-area: photo;
+    margin: auto;
+}
+
+.form-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-block-start: 50px;;
+}
+.form {
+    width: 70%;
 }
