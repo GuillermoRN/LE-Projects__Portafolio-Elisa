@@ -25,6 +25,8 @@ html {
 }
 body {
     background: linear-gradient(95deg , #FAD7A1 0%, #E96D71 100%);
+    margin: auto;
+    max-width: 1250px;
     padding: 0 16px;
 }
 a {
